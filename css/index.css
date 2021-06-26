@@ -1,4 +1,6 @@
-
+body {
+    font-family: 'Fira Code',Arial, Helvetica, sans-serif;
+}
 header {
     display: flex;
     justify-content: space-between;
@@ -7,121 +9,39 @@ header {
     padding: 10px 20px;
 }
 
-nav {
-
-    text-align: right;
-}
 #logo {
     max-width: 60px;
 }
 
-a {
-    display: inline-flex;
-    align-items: center;
-    color: #fff;
-    font-size: 20px;
-    font-family: 'Fira Code',Arial, Helvetica, sans-serif;
-    font-weight: 500;
-    text-decoration: none;
-    margin-right: 30px;
-    transition: transform .3s;
-}
-
-a::before {
-    content: "";
-    background-color: #FFB30f;
-    width: 10px;
-    height: 10px;
-    margin-right: 10px;
-}
-a:hover {
-    transform: scale(1.1);
-    
-}
-
-.button {
-    display: inline-block;
-    background-color: #FFB30f;
-    height: 60px;
-    line-height: 60px;
-    padding-left: 20px;
-    padding-right: 20px;
-    box-shadow: 5px 5px 0 black;
-    margin-right: 0;
-}
-
-.zoom {
-    transition: transform .3s;
-}
-
-#button:hover {
-    transform: scale(1.1);
-    color: #262626;
-}
-
 .box-titulo {
+    display: inline-block;
     position: absolute;
     margin-top: 116px;
     margin-left: 91px;
-    height: 184px;
-    width: 627px;
     background-color: #262626;
     box-shadow: 10px 10px 0 black;
-}
-.box-titulo,h1 {
-    font-family: 'Press Start 2P', cursive;
-    font-size: 40px;
-    padding-top: 42px; 
-    color: #FFB30f;
     text-align: center;
-    
+    padding: 42px 44px;
+    font-family: 'Press Start 2P', cursive;
     text-shadow:5px 5px #000;
 }
-.box-titulo, h2 {
-    padding-top: 28px;
+.box-titulo .tittle {
+    margin-bottom: 28px;
+    font-size: 40px;
+    color: #FFB30f;  
+}
+.box-titulo .subtitle {
     font-size: 30px;
     color: #fff;
 }
 
-.button2 {
-    position: absolute;
-    display: inline-block;
-    background-color: #FFB30f;
-    width: 170px;
-    height: 60px;
-    line-height: 60px;
-    padding-left: 20px;
-    padding-right: 20px;
-    box-shadow: 5px 5px 0 black;
-    margin-right: 0;
-    text-align: center;
-    margin-left: 100px;
-    margin-top: 360px;
-    
-}
-.button1 {
-    position: relative;
-    display: inline-block;
-    background-color: #FFB30f;
-    width: 170px;
-    height: 60px;
-    line-height: 60px;
-    padding-left: 20px;
-    padding-right: 20px;
-    box-shadow: 5px 5px 0 black;
-    margin-right: 0;
-    text-align: center;
-    margin-left: 150px;
-    margin-top: 360px;
-    
-}
 .bg {
     position: absolute;
     width: 100%;
     height: 797px;
     left: 0px;
     top: 80px;
-    background-image: url(../assets/img/Super-Mario-1080-Main.jpg);
+    background-image: url(../assets/img/sunset-horizon-scenery-landscape-art-uhdpaper.com-4K-178.jpg);
     background-size: cover;
     
 }
