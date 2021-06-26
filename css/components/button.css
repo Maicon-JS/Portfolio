@@ -12,6 +12,8 @@
     font-size: 20px;
     text-decoration: none;
     color: #fff;
+    min-width: 152px;
+    text-align: center;
 }
 
 .button:hover {

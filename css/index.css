@@ -9,7 +9,11 @@ header {
 }
 
 #logo {
-    max-width: 60px;
+    max-width: 50px;
+    transition: transform .3s;
+}
+#logo:hover {
+    transform: scale(1.05);
 }
 
 .box {
@@ -55,4 +59,23 @@ header {
 .banner .navigation {
     display: flex;
     justify-content: space-around;
+}
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 730px;
+    background-color: #FFB30f;
+    text-align: center;
+    border-bottom: 10px solid #000;
+}
+
+.subtitles {
+    font-family: 'Press Start 2P', sans-serif;
+    text-shadow:4px 4px #000;
+    font-size: 30px;
+    color: #fff;
+    padding-bottom: 60px;
 }
