@@ -1,6 +1,15 @@
 .section {
     padding-top: 50px;
     padding-bottom: 100px;
-    background-color: #FFB30f;
+    background-color: #f35b6c;
     border-bottom: 10px solid #000;
+}
+
+.section .main-title {
+    margin-bottom: 60px;
+}
+
+.section.-project {
+    background-color: #262626;
+    box-sizing: border-box;
 }
