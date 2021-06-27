@@ -19,22 +19,9 @@ header {
 .box {
     background-color: #262626;
     box-shadow: 10px 10px 0 black;
-    text-align: center;
     padding: 42px 44px;
-    font-family: 'Press Start 2P', sans-serif;
-    text-shadow:5px 5px #000;
+    
 }
-
-.box .title {
-    margin-bottom: 28px;
-    font-size: 40px;
-    color: #FFB30f;  
-}
-.box .subtitle {
-    font-size: 30px;
-    color: #fff;
-}
-
 .banner {
     box-sizing: border-box;
     height: 800px;
@@ -61,21 +48,4 @@ header {
     justify-content: space-around;
 }
 
-.skills {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 730px;
-    background-color: #FFB30f;
-    text-align: center;
-    border-bottom: 10px solid #000;
-}
 
-.subtitles {
-    font-family: 'Press Start 2P', sans-serif;
-    text-shadow:4px 4px #000;
-    font-size: 30px;
-    color: #fff;
-    padding-bottom: 60px;
-}
